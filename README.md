@@ -6,7 +6,7 @@ Just like Ruby has `rubocop`, Javascript has libraries that lint code to standar
 
 ESLint uses 0, 1, and 2 to signify `off`, `warn`, and `error` for its `rules`, the equivalent of `cops` in Ruby's `rubocop`. Besides `rules`, there are [many other configurations](https://eslint.org/docs/user-guide/configuring) that may go into an `.eslintrc.json` file.
 
-We do not need to dig into the meaning of each of these values, but it is good to know where to look them up if we encounter a Javascript linting issue while writing code in Nitro.
+We do not need to dig into the meaning of each of these key/value pairs, but it is good to know where to look them up if we encounter a Javascript linting issue while writing code in Nitro.
 
 Here is an example `.eslintrc.json` in Nitro. Notice that it extends a lot of recommended ESLint, React and Flow settings. It also granularly sets many React specific settings.
 
